@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto';
+    font-weight: inherit;
+}
+
+.clearfix {
+    clear: both;
+}
+
+body {
+    background: #50C9C3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #96DEDA, #50C9C3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #96DEDA, #50C9C3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+small {
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    height: 52px;
+    border-radius: 8px;
+    border: 2px solid #000000;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+select {
+    width: 35%;
+    height: 52px;
+    border-radius: 8px;
+    border: 2px solid #000000;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+input[type="password"] {
+    font-size: 10px;
+    letter-spacing: 0.3em;
+}
+
+input[type="button"],
+input[type="submit"] {
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 0.3em;
+    cursor: pointer;
+}
+
+input[value="prev"] {
+    background: rgb(183, 243, 240);
+    color: rgb(66, 192, 186);
+    border-radius: 8px 0 0 8px;
+}
+
+input[value="next"] {
+    background: rgb(66, 192, 186);
+    color: #fff;
+    border-radius: 0 8px 8px 0;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+    height: 140px;
+}
+
+input[type="submit"] {
+    background: rgb(66, 142, 192);
+    color: #fff;
+    border-radius: 0 8px 8px 0;
+}
+
+.main {
+    max-width: 600px;
+    background: #fff;
+    padding: 40px 60px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgb(0, 0, 0, 0.2)
+}
+
+.schedule {
+    width: 140px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.schedule svg {
+    font-size: 10px;
+    margin: 0 10px;
+    color: rgb(66, 177, 171);
+    /* opacity: 0.4; */
+}
+
+input[type="button"].prev1 {
+    cursor: no-drop;
+}
+
+.step2,
+.step3,
+.step4,
+.submitover_step5 {
+    display: none;
+}
+
+.submitover_step5 svg.fa-smile-wink {
+    display: block;
+    font-size: 230px;
+    margin: 40px auto;
+    color: rgb(146, 218, 214);
+}
+
+.submitover_step5 p {
+    text-align: center;
+    color: rgb(37, 145, 139);
+}
